@@ -1,6 +1,6 @@
 {
   "name": "react-native-vimeo",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A <Vimeo/> component for React Native.",
   "main": "Vimeo.ios.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Myagi/react-native-vimeo#readme",
   "peerDependencies": {
-    "react-native-webview-bridge": "^0.20.3"
+    "react-native-webview-bridge": "^0.33.0"
   }
 }

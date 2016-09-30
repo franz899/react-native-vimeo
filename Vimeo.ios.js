@@ -2,13 +2,9 @@
  * @providesModule Vimeo
  * @flow
  */
-import React from 'react-native';
-const {
-  StyleSheet,
-  PropTypes
-} = React;
-import WebViewBridge from 'react-native-webview-bridge';
-
+ import React, { PropTypes } from 'react';
+ import { StyleSheet } from 'react-native';
+ import WebViewBridge from 'react-native-webview-bridge';
 
 function getVimeoPageURL(videoId) {
   return 'https://myagi.github.io/react-native-vimeo/v0.3.0.html?vid=' + videoId;
